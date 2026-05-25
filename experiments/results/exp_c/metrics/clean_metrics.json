@@ -1,0 +1,13 @@
+{
+  "tag": "clean",
+  "scores_file": "/c20250508/400022-chf/asvspoof5/experiments/results/exp_c/scores/dev_scores_clean.txt",
+  "n_bonafide": 1157,
+  "n_spoof": 3843,
+  "minDCF": 0.3149364951170071,
+  "EER": 0.15572128696092594,
+  "EER_verify": 0.15572128696092594,
+  "CLLR": 3.335781414422146,
+  "accuracy": 0.2872,
+  "f1": 0.3936713167744131,
+  "auc": 0.8774642397777415
+}

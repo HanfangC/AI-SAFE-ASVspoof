@@ -1,0 +1,14 @@
+{
+  "description": "ASVspoof5 attack ID -> coarse family (paper Table 2). Prefix match on attack column.",
+  "rules": [
+    {"prefix": "A0", "family": "tts", "note": "A01-A08 TTS"},
+    {"prefix": "A1", "family": "vc", "note": "A09-A16 VC"},
+    {"prefix": "AT", "family": "adv", "note": "Adversarial (Malafide)"},
+    {"prefix": "A", "family": "tts", "note": "fallback legacy A*"}
+  ],
+  "families": {
+    "tts": "TTS synthesis",
+    "vc": "Voice conversion",
+    "adv": "Adversarial"
+  }
+}

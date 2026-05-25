@@ -1,0 +1,52 @@
+{
+  "baseline_eer": 0.152,
+  "family_adjusted_eer": 0.1407,
+  "target_eer": 0.1407,
+  "B1_per_attack": {
+    "EER": 0.14271837970968862
+  },
+  "B2_platt_per_attack": {
+    "EER": 0.1449825560471325
+  },
+  "B_stack_family_attack": {
+    "EER": 0.13382356469860976,
+    "scores": "/c20250508/400022-chf/asvspoof5/experiments/results/innovation/stack_baseline/eval_scores_baseline_family_attack.txt",
+    "note": "分族平移后再做按攻击 ID 分数校准"
+  },
+  "best_track": {
+    "id": "B_stack_family_attack",
+    "EER": 0.13382356469860976
+  },
+  "track_A_best": {
+    "id": "A4_ensemble",
+    "EER": 0.14505096128493195,
+    "note": "无标签路线最优：预训练+TTA 分数集成"
+  },
+  "track_B_best": {
+    "id": "B_stack_family_attack",
+    "EER": 0.13382356469860976
+  },
+  "A1_tta_n3": {
+    "EER": 0.1475454331988719,
+    "dir": "/c20250508/400022-chf/asvspoof5/experiments/results/innovation/tta_full_n3"
+  },
+  "A4_ensemble": {
+    "EER": 0.14505096128493195
+  },
+  "A1_best": {
+    "EER": 0.1475454331988719,
+    "scores": "/c20250508/400022-chf/asvspoof5/experiments/results/innovation/tta_full_n3/dev_scores_tta.txt"
+  },
+  "A2_head_only": {
+    "EER": 0.15108192535638337,
+    "best_epoch": 2,
+    "ckpt": "/c20250508/400022-chf/asvspoof5/Baseline-AASIST/exp_result/AASIST_ASVspoof5_head_only_ep10_bs24_head_only_innovation/weights/epoch_2_0.259.pth",
+    "epochs": {
+      "0": 0.15181384905626488,
+      "1": 0.15245228765524918,
+      "2": 0.15108192535638337
+    },
+    "dir": "/c20250508/400022-chf/asvspoof5/experiments/results/innovation/head_only",
+    "note": "冻结 backbone 微调，全量 dev 评测"
+  }
+}

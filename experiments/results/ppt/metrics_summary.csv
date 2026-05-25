@@ -1,0 +1,12 @@
+experiment,subset,condition,EER_pct,minDCF,AUC,CLLR,notes
+exp_a,dev_full,all,15.2001,0.314848,0.879420,3.403994,n_bonafide=31334
+exp_b,dev_full,tts,4.6326,,,,attack_family
+exp_b,dev_full,vc,16.8322,,,,attack_family
+exp_b,dev_full,pooled,15.2001,,,,same_as_exp_a
+exp_c,dev_5000,clean,15.5721,0.314936,0.877464,3.335781414422146,eer_delta_pp=0.00
+exp_c,dev_5000,mp3_128,15.7366,0.296328,0.877577,3.2072734968783014,eer_delta_pp=0.16
+exp_c,dev_5000,mp3_64,15.8059,0.304169,0.879472,3.0529271510886535,eer_delta_pp=0.23
+exp_c,dev_5000,resample_8k,21.9577,0.503676,0.828355,3.20860980078349,eer_delta_pp=6.39
+exp_c,dev_5000,noise_20,30.5987,0.754643,0.735390,1.204713327732161,eer_delta_pp=15.03
+exp_c,dev_5000,noise_10,44.3526,0.994986,0.575807,1.3692909430421576,eer_delta_pp=28.78
+exp_c,dev_5000,noise_5,50.4784,0.996698,0.501487,1.4430625225438742,eer_delta_pp=34.91

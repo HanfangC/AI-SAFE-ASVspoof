@@ -1,0 +1,13 @@
+{
+  "tag": "mp3_64",
+  "scores_file": "/c20250508/400022-chf/asvspoof5/experiments/results/exp_c/scores/dev_scores_mp3_64.txt",
+  "n_bonafide": 1157,
+  "n_spoof": 3843,
+  "minDCF": 0.3041693289621084,
+  "EER": 0.15805859681343196,
+  "EER_verify": 0.15805859681343196,
+  "CLLR": 3.0529271510886535,
+  "accuracy": 0.3182,
+  "f1": 0.4041251529452893,
+  "auc": 0.8794724033257832
+}

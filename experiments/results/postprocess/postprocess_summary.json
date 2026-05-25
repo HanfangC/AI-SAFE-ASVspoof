@@ -1,0 +1,68 @@
+{
+  "scores_file": "/c20250508/400022-chf/asvspoof5/Baseline-AASIST/exp_result/AASIST_ASVspoof5_eval_ep100_bs24/eval_scores_dev_full.txt",
+  "baseline": {
+    "tag": "baseline",
+    "scores_file": "/c20250508/400022-chf/asvspoof5/Baseline-AASIST/exp_result/AASIST_ASVspoof5_eval_ep100_bs24/eval_scores_dev_full.txt",
+    "n_bonafide": 31334,
+    "n_spoof": 109616,
+    "minDCF": 0.3148484031251539,
+    "EER": 0.15200081925805914,
+    "EER_verify": 0.15200081925805914,
+    "CLLR": 3.4039942079518686,
+    "accuracy": 0.2777225966654842,
+    "f1": 0.3809778610126413,
+    "auc": 0.8794197000535252
+  },
+  "calibrated": {
+    "tag": "calibrated",
+    "scores_file": "/c20250508/400022-chf/asvspoof5/experiments/results/postprocess/eval_scores_dev_full_calibrated.txt",
+    "method": "logistic_platt",
+    "coef": 0.40433558253662805,
+    "intercept": -4.10318457207497,
+    "EER": 0.15200081925805914,
+    "EER_verify": 0.15200081925805914,
+    "minDCF": 0.3148484031251539,
+    "CLLR": 0.9206099208439751,
+    "auc": 0.879419688116556,
+    "n_bonafide": 31334,
+    "n_spoof": 109616
+  },
+  "per_family_threshold": {
+    "baseline_pooled_eer": 0.15200081925805914,
+    "pooled_eer": 0.1406799375708398,
+    "shift_tts": -0.5268467611299789,
+    "shift_vc": -0.5268467611299789,
+    "eer_tts": 0.03508904308104067,
+    "eer_vc": 0.15707999005976397,
+    "improvement_pp": 1.1320881687219342,
+    "adjusted_scores_file": "/c20250508/400022-chf/asvspoof5/experiments/results/postprocess/eval_scores_dev_full_family_adjusted.txt"
+  },
+  "family_adjusted": {
+    "tag": "family_adjusted",
+    "scores_file": "/c20250508/400022-chf/asvspoof5/experiments/results/postprocess/eval_scores_dev_full_family_adjusted.txt",
+    "n_bonafide": 31334,
+    "n_spoof": 109616,
+    "minDCF": 0.2769918193074653,
+    "EER": 0.1406799375708398,
+    "EER_verify": 0.1406799375708398,
+    "CLLR": 3.0645617303114245,
+    "accuracy": 0.3074636395885066,
+    "f1": 0.3909427275393245,
+    "auc": 0.8933228660749775
+  },
+  "tta_5k": {
+    "tag": "tta",
+    "scores_file": "experiments/results/postprocess/tta_5k/dev_scores_tta.txt",
+    "n_bonafide": 1157,
+    "n_spoof": 3843,
+    "minDCF": 0.27855248044969905,
+    "EER": 0.1495736616384986,
+    "EER_verify": 0.1495736616384986,
+    "CLLR": 3.311523367712215,
+    "accuracy": 0.2856,
+    "f1": 0.3931362555215766,
+    "auc": 0.8806805850460298,
+    "clean_baseline_5k_eer_pct": 15.57,
+    "improvement_pp_vs_clean_5k": 0.6126338361501382
+  }
+}

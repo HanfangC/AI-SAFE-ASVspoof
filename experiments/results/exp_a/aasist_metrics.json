@@ -1,0 +1,13 @@
+{
+  "tag": "aasist",
+  "scores_file": "/c20250508/400022-chf/asvspoof5/Baseline-AASIST/exp_result/AASIST_ASVspoof5_eval_ep100_bs24/eval_scores_dev_full.txt",
+  "n_bonafide": 31334,
+  "n_spoof": 109616,
+  "minDCF": 0.3148484031251539,
+  "EER": 0.15200081925805914,
+  "EER_verify": 0.15200081925805914,
+  "CLLR": 3.4039942079518686,
+  "accuracy": 0.2777225966654842,
+  "f1": 0.3809778610126413,
+  "auc": 0.8794197000535252
+}

@@ -1,0 +1,13 @@
+{
+  "tag": "resample_8k",
+  "scores_file": "experiments/results/exp_c/scores/dev_scores_resample_8k.txt",
+  "n_bonafide": 1157,
+  "n_spoof": 3843,
+  "minDCF": 0.5036762054997457,
+  "EER": 0.21957668209279924,
+  "EER_verify": 0.21957668209279924,
+  "CLLR": 3.20860980078349,
+  "accuracy": 0.2898,
+  "f1": 0.39433736994712604,
+  "auc": 0.8283549814218446
+}

@@ -1,0 +1,21 @@
+# ASVspoof5 Baseline-AASIST conda 环境（与官方 README 对齐）
+# 创建: conda env create -f environment.yml
+# 更新: conda env update -f environment.yml --prune
+name: aasist
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch=1.13.1
+  - pytorch-cuda=11.7
+  - pip
+  - pip:
+      - torchcontrib
+      - numpy
+      - soundfile
+      - tensorboard
+      - tqdm
+      - swanlab

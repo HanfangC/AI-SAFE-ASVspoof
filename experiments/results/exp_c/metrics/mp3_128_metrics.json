@@ -1,0 +1,13 @@
+{
+  "tag": "mp3_128",
+  "scores_file": "experiments/results/exp_c/scores/dev_scores_mp3_128.txt",
+  "n_bonafide": 1157,
+  "n_spoof": 3843,
+  "minDCF": 0.29632788774435476,
+  "EER": 0.1573662313209191,
+  "EER_verify": 0.1573662313209191,
+  "CLLR": 3.2072734968783014,
+  "accuracy": 0.3004,
+  "f1": 0.3981417756366139,
+  "auc": 0.8775771413457911
+}

@@ -1,0 +1,13 @@
+{
+  "tag": "noise_5",
+  "scores_file": "/c20250508/400022-chf/asvspoof5/experiments/results/exp_c/scores/dev_scores_noise_5.txt",
+  "n_bonafide": 1157,
+  "n_spoof": 3843,
+  "minDCF": 0.9966981239222904,
+  "EER": 0.5047838103649487,
+  "EER_verify": 0.5047838103649487,
+  "CLLR": 1.4430625225438742,
+  "accuracy": 0.6354,
+  "f1": 0.26283865750101093,
+  "auc": 0.50148694963578
+}

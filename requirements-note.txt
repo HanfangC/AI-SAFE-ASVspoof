@@ -1,0 +1,2 @@
+Python 依赖由 Baseline-AASIST/environment.yml 管理。
+推荐：bash scripts/setup_conda_env.sh
